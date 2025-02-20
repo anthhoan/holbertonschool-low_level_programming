@@ -9,5 +9,6 @@
  */
 int _putchar(char c)
 {
+	void print_alphabet(void);
 	return (write(1, &c, 1));
 }
