@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * prints alphabet 10 times - calls _putchar
+ * print_alphabet_x10 - calls _putchar
  *
  * Return: void
  */
-
 void print_alphabet_x10(void)
 {
 	int i;
