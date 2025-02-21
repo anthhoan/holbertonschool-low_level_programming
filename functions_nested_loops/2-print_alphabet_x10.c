@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * main - check the code.
+ * prints alphabet 10 times - calls _putchar
  *
- * Return: Always 0.
+ * Return: void
  */
 
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 {
 	int i;
 	char alphabet;
@@ -18,6 +18,6 @@ void print_alphabet_x10(void);
 		_putchar(alphabet);
 	}
 	_putchar('\n');
-	}
-	return (0);
+}
+
 }
