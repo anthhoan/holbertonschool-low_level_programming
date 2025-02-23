@@ -1,6 +1,7 @@
 #include "main.h"
 
-/** times_table - prints the times table
+/**
+ * times_table - prints the times table
  *
  * Return: empty output
  */
