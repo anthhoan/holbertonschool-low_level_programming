@@ -2,7 +2,9 @@
 
 /**
  * add - adds two integers together
- * @a and @b - two intergers
+ * @a: int 1
+ * @b: int 2
+ * Description: adds int a and int b
  * Return: value
  */
 
