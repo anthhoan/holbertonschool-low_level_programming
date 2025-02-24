@@ -7,7 +7,7 @@
  */
 void print_diagonal(int n)
 {
-	int row = 1;
+	int row = 0;
 	int space;
 
 	if (n <= 0)
@@ -18,7 +18,7 @@ void print_diagonal(int n)
 	{
 		while (row <= n)
 		{
-			space = 1;
+			space = 0;
 
 			while (space <= row)
 			{
