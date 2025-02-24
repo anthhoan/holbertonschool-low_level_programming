@@ -3,7 +3,7 @@
 /**
  * print_diagonal - calls forth the print_diagonal function
  * @n: prints spaces
- * return: a number of spaces before \
+ * return: a number of spaces before
  */
 void print_diagonal(int n)
 {
