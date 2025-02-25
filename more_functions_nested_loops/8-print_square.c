@@ -2,7 +2,7 @@
 
 /**
  * print_square - prints a hashtag
- *
+ * size: prints the size of the square
  * return: returns rows and hastags
  */
 
@@ -23,7 +23,7 @@ void print_square(int size)
 		_putchar('\n');
 		row++;
 	}
-	if (size < 0)
+	if (size <= 0)
 	{
 		_putchar('\n');
 	}
