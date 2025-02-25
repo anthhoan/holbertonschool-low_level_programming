@@ -2,7 +2,7 @@
 
 /**
  * print_square - prints a hashtag
- * size: prints the size of the square
+ * @size: prints the size of the square
  * return: returns rows and hastags
  */
 
