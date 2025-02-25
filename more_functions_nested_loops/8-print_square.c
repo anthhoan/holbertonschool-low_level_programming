@@ -1,6 +1,7 @@
 #include "main.h"
 
-/** print_square - prints a hashtag
+/**
+ * print_square - prints a hashtag
  *
  * return: returns rows and hastags
  */
@@ -21,5 +22,9 @@ void print_square(int size)
 		}
 		_putchar('\n');
 		row++;
+	}
+	if (size < 0)
+	{
+		_putchar('\n');
 	}
 }
