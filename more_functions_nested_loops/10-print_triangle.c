@@ -13,21 +13,28 @@ void print_triangle(int size)
 	int space_count = 0;
 	int hash_count = 0;
 
-	while (row < size)
+	if (size > 0)
 	{
-		hash_count = 0;
-		space_count = 0;
-		while (hash_count < (row + 1))
+		while (row < size)
 		{
-			while (space_count < (size - (row + 1)))
+			hash_count = 0;
+			space_count = 0;
+			while (hash_count < (row + 1))
 			{
-				_putchar(' ');
-				space_count++;
+				while (space_count < (size - (row + 1)))
+				{
+					_putchar(' ');
+					space_count++;
+				}
+				_putchar('#');
+				hash_count++;
 			}
-			_putchar('#');
-			hash_count++;
+			_putchar('\n');
+			row++;
 		}
+	}
+	else
+	{
 		_putchar('\n');
-		row++;
 	}
 }
