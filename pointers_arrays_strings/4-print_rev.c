@@ -15,10 +15,10 @@ void print_rev(char *s)
 		stringLgnth++;
 	}
 
-	while (stringLgnth >= 0)
+	while (stringLgnth > 0)
 	{
-		_putchar(s[stringLgnth]);
 		stringLgnth--;
+		_putchar(s[stringLgnth]);
 	}
 	_putchar('\n');
 }
