@@ -15,7 +15,7 @@ void print_rev(char *s)
 		stringLgnth++;
 	}
 
-	while (stringLgnth >= 0)
+	while (stringLgnth >= 0 - 1)
 	{
 		_putchar(s[stringLgnth]);
 		stringLgnth--;
