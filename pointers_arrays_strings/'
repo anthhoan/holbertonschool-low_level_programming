@@ -1,0 +1,25 @@
+#include "main.h"
+
+/** puts_half - calls upon the puts_half function
+ * @str: holds the string
+ * return: void
+ */
+
+void puts_half(char *str)
+{
+	int stringLength = 0;
+	int i = 0;
+
+	while (str[stringLength] != '\0')
+	{
+		stringLength++;
+	}
+
+	while (i > stringLength / 2)
+	{
+		_putchar(str[stringLength]);
+		stringLength++;
+		i++;
+	}
+	_putchar('\n');
+}
