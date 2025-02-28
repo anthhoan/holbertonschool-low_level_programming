@@ -14,7 +14,12 @@ void print_array(int *a, int n)
 
 	while (a[n] != '\0')
 	{
-		printf("%d, ", *a);
+		if (a[n + 1] == '\0')
+		{
+			printf("%d", *a);
+		}
+		else
+			printf("%d, ", *a);
 		a++;
 	}
 	printf("\n");
