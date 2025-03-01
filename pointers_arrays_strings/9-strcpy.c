@@ -4,7 +4,7 @@
  * _strcpy - calls upon the strcpy function
  * @src: stores the string we need to copy
  * @dest: takes the string from src and prints
- * return: the pointer to dest
+ * return: char *
  */
 
 char *_strcpy(char *dest, char *src)
