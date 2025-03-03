@@ -9,16 +9,16 @@
 
 char *_strcat(char *dest, char *src)
 {
-	while (*dest != '\0')
-	{
-		dest++;
+	int count = 0;
+	int startPosition;
+
+	while (dest[count] != '\0')
+	{					/** dest[count] is not NULL increment count until it reaches NULL */
+		count++
 	}
-	while (*src != '\0')
-	{
-		*dest = *src;
-		dest++;
-		src++;
-	}
-	*dest = '\0';
-	return (dest);
-}
+
+	startPosition = count;			/** count is now NULL, which we will assign to another variable */
+
+	count = 0;				/** reset count to 0 */
+
+	while (dest[startPosition + count] 
