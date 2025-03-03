@@ -15,7 +15,7 @@ char *_strcat(char *dest, char *src)
 	while (dest[nulCount] != '\0')
 	{
 		nulCount++;
-	}	
+	}
 	while (src[sndArray] != '\0')
 	{
 	dest[nulCount] = src[sndArray];
