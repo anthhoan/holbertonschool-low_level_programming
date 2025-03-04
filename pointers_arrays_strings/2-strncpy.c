@@ -5,25 +5,24 @@
  * @dest: A pointer to the destination array where the
  * content is to be copied
  * @src: A pointer to the source string to be copied
- * @n: the number of characters to be copied
+ * @n: the number of maximum characters to be copied
  *
  * Return: src copied to the end of dest
  */
 
 char *_strncpy(char *dest, char *src, int n)
 {
-	int srcCount = 0;
-	int destCount = 0;
+	int count = 0;
 
-	while (src[srcCount] != '\0' && srcCount < n)
+	while (count < n && src[count] != '\0')
 	{
-		dest[destCount] = src[srcCount];
-		destCount++;
-		srcCount++;
+		dest[count] = src[count];
+		count++;
 	}
-	if (destCount < n && src[srcCount] != n)
+	while (count < n)
 	{
-		dest[destCount] = '\0';
+		dest[count] = '\0';
+		count++;
 	}
 	return (dest);
 }
