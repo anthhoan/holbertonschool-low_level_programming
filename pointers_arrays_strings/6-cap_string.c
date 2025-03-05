@@ -8,16 +8,28 @@
 
 char *cap_string(char *s)
 {
-	int array = 0;
+	int count = 0;
+	int capitalise = 1;
 	
-	while (s[array] != '\0')
+	while (s[count] != '\0')
 	{
-	if (s[array] >= 'a' && s[array] <= 'z')
-	{
-		if (s[array] == ' ' || '	' || 10 || ',' || ';' || '.' || '!' || '?' || '"' || '(' || ')' || '{' || '}')
-		s[array + 1] -= 32;
-	}
-	array++;
+		if (s[count] == ' ' || s[count] == '\t' || s[count] == '\n' || s[count] == ',' || s[count] == '.' || s[count] == '!' || s[count] == '?' || s[count] == '"' || s[count] == '(' || s[count] == ')' || s[count] == '{' || s[count] == '}' ||  s[count] == ';')
+		{
+			capitalise = 1;
+		}
+		else
+		{
+			if (capitalise == 1 && s[count] >= 'a' && s[count] <= 'z')
+			{
+				s[count] = s[count] - 32;
+				capitalise = 0;
+			}
+			else
+			{
+				capitalise = 0;
+			}
+		}
+		count++;
 	}
 	return (s);
 }
