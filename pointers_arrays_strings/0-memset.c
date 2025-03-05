@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _memcpy - function that fills memory with a constant byte
+ * _memset - function that fills memory with a constant byte
  * @s: a pointer to the block of memory to fill
  * @b: second parameter of type integer and converts it to unsigned char
  * before using it to full a block of memory
