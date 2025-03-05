@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stddef.h>
 
 /**
  * _strchr - locates a character in a string then prints out the remainder
@@ -19,5 +20,5 @@ char *_strchr(char *s, char c)
 		}
 		array++;
 	}
-	return (0);
+	return (NULL);
 }
