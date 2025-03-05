@@ -23,5 +23,5 @@ char *_strchr(char *s, char c)
 		}
 		array++;
 	}
-	return (0);
+	return (s);
 }
