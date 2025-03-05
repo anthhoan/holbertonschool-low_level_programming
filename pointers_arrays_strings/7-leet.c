@@ -10,7 +10,7 @@ char *leet(char *string)
 {
 	int count1 = 0;
 	int count2;
-	char alphabet[] = "aAeEoOtT;:";
+	char alphabet[] = "aAeEoOtTlL";
 	char replaceWith[] = "4433007711";
 
 	while (string[count1] != '\0')
