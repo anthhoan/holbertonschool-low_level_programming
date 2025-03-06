@@ -28,8 +28,8 @@ unsigned int _strspn(char *s, char *accept)
 			}
 			aCount++;
 
-		}	
-		
+		}
+
 		if (match == 0)
 		{
 			return (length);
