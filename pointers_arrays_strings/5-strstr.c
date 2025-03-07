@@ -20,12 +20,14 @@ char *_strstr(char *haystack, char *needle)
 			{
 				if (haystack[hsCounter + nCounter] != needle[nCounter])
 					break;
+				{
 				if (needle[nCounter + 1] == '\0')
 				{
 					return (haystack + hsCounter);
 				}
 			}
 		}
+	}
 	}
 	return (0);
 }
