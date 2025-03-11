@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 /**
  * main - program that adds positive numbers
  * @argc: number of arguments
@@ -10,8 +10,6 @@
 
 int main(int argc, char *argv[])
 {
-	int firstNumber = 0;
-
 	if (argc != 3)
 	{
 		printf("0\n");
@@ -23,8 +21,5 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-
-	while (
-	
 	return (argc);
 }
