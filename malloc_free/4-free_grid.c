@@ -3,6 +3,7 @@
 
 /**
  * free_grid - frees the 2d grid
+ * @grid: the grid
  * @height: the given height
  */
 
