@@ -30,10 +30,5 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 		totalArray[i] = 0;
 		i++;
 	}
-	/*for (i = 0; i < nmemb * size; i++)
-	{
-		totalArray[i] = 0;
-	}*/
-
 	return (totalArray);
 }
