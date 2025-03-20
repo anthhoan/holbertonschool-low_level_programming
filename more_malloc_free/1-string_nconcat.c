@@ -29,15 +29,15 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	for (count = 0; s2[count] != '\0'; count++)
 		length2++;
 
+	if (n > length2)
+		n = length2;
+
 	finalConcat = malloc(sizeof(char) * (length1 + length2 + 1));
 	if (finalConcat == NULL)
 	{
 		return (NULL);
 	}
 	
-	if (n > length2)
-		n = length2;
-
 	count = 0;
 
 	for (count = 0; count < length1; count++)
