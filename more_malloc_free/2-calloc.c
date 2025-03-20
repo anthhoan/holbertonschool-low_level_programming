@@ -25,7 +25,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 		return (NULL);
 	}
 
-	for (i = 0; totalArray[i] < nmemb - 1; i++)
+	for (i = 0; totalArray[i] < nmemb + 1; i++)
 	{
 		totalArray[i] = 0;
 	}
