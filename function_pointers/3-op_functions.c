@@ -5,7 +5,7 @@
  * op_add - adds two integers
  * @a: the first integer
  * @b: the second integer
- * Return: the sum of both integers
+ * Return: the sum of a and b
  */
 int op_add(int a, int b)
 {
@@ -15,7 +15,7 @@ int op_add(int a, int b)
 /** op_sub - subtracts two integers
  * @a: the first integer
  * @b: the second integer
- * Return: the sum of both integers
+ * Return: the difference of a and b
  */
 int op_sub(int a, int b)
 {
@@ -26,7 +26,7 @@ int op_sub(int a, int b)
  * op_mul - multiplies two integers
  * @a: the first integer
  * @b: the second integer
- * Return: the sum of both integers
+ * Return: the product of a and b
  */
 int op_mul(int a, int b)
 {
@@ -37,7 +37,8 @@ int op_mul(int a, int b)
  * op_div - divides two integers
  * @a: the first integer
  * @b: the second integer
- * Return: the sum of both integers, if b == 0 return error and exit 100
+ * Return: the result of the division of a by b
+ * if b == 0, return error and exit 100
  */
 int op_div(int a, int b)
 {
@@ -53,7 +54,8 @@ int op_div(int a, int b)
  * op_mod - modulo of two integers
  * @a: the first integer
  * @b: the second integer
- * Return: the sum of both integers, if b == 0 return error and exit 100
+ * Return: the remainder of the division of a by b
+ * if b == 0, return error and exit 100
  */
 int op_mod(int a, int b)
 {
