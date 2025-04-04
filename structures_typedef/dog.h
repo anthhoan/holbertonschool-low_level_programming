@@ -13,6 +13,8 @@ typedef struct dog
 	char *name;
 	float age;
 	char *owner;
-} dog_p;
+} dog_p; /* typedef is used to create a nickname for a data type */
+
+void init_dog(struct dog *d, char *name, float age, char *owner);
 
 #endif
