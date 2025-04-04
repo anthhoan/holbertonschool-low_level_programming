@@ -18,3 +18,8 @@ void init_dog(struct dog *d, char *name, float age, char *owner)
 		d->owner = owner;
 	}
 }
+
+/**
+ * use the dot (.) operator when you have the struct variable directly
+ * use the arrow (->) operator when you have a pointer to the struct vaiable
+ */
