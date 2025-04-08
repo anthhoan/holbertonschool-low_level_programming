@@ -23,7 +23,11 @@ list_t *add_node_end(list_t **head, const char *str)
 		return (NULL);
 
 	newNode->str = strdup(str);
-
+	if (newNode->str == NULL)
+	{
+		free(newNode);
+		return (NULL);
+	}
 	while (newNode->str[i] != '\0')
 	{
 		i++;
