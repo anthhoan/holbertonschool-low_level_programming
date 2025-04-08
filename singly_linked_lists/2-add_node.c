@@ -14,7 +14,7 @@ list_t *add_node(list_t **head, const char *str)
 	list_t *newNode;
 	unsigned int i = 0;
 
-	if (str== NULL)
+	if (str == NULL)
 		return (NULL);
 	/* allocates memory of list_t = str, len and next */
 	newNode = malloc(sizeof(list_t));
@@ -38,5 +38,5 @@ list_t *add_node(list_t **head, const char *str)
 	/* update the head to the new node */
 	*head = newNode;
 
-	return(newNode);
+	return (newNode);
 }
