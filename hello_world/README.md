@@ -54,7 +54,3 @@ with proper grammar, but the outcome is a piece of art,
 
 **File:** `6-size.c`
 A C program that prints the sizes of various data types on the computer it is compiled and run on.
-
----
-
-Let me know if you'd like to add usage instructions, compilation steps, or links to documentation.
