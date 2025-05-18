@@ -1,39 +1,60 @@
-<head>
-    <meta charset="UTF-8">
-    <title>C - Hello, World</title>
-</head>
-<body>
+# C - Hello, World 🌍
 
-    <h1>C - Hello, World</h1>
-    <p>In this project, I learned about compilation using <code>gcc</code>, entry points using <code>main</code>, and text-printing functions in C.</p>
+In this project, I learned the basics of C programming, including how to compile code using `gcc`, how the `main` function serves as an entry point, and how to output text to the console using standard functions like `puts` and `printf`.
 
-    <h1>Tasks 📃</h1>
+---
 
-    <h2><b>0. Preprocessor</b></h2>
-    <p><code>0-preprocessor</code>: Bash script that runs a C file saved in the variable <code>$CFILE</code> through the preprocessor and saves the result in the file <code>c</code>.</p>
+## Tasks 📃
 
-    <h2><b>1. Compiler</b></h2>
-    <p><code>1-compiler</code>: Bash script that compiles a C file saved in the variable <code>$CFILE</code> without linking; saves the result in an output file of the same name but with a <code>.o</code> extension.<br>
-    Example: If the C file is <code>main.c</code>, the output is <code>main.o</code>.</p>
+### 0. Preprocessor
 
-    <h2><b>2. Assembler</b></h2>
-    <p><code>2-assembler</code>: Bash script that generates the assembly code of a C file saved in the variable <code>$CFILE</code>; saves the result in an output file of the same name but with a <code>.s</code> extension.<br>
-    Example: If the C file is <code>main.c</code>, the result is <code>main.s</code>.</p>
+**File:** `0-preprocessor`
+A Bash script that runs a C file (provided in the variable `$CFILE`) through the C preprocessor and saves the output in a file named `c`.
 
-    <h2><b>3. Name</b></h2>
-    <p><code>3-name</code>: Bash script that compiles a C file saved in the variable <code>$CFILE</code> and creates an executable named <code>cisfun</code>.</p>
+### 1. Compiler
 
-    <h2><b>4. Hello, puts</b></h2>
-    <p><code>4-puts.c</code>: C program that prints exactly:<br>
-    <code>"Programming is like building a multilingual puzzle"</code><br>
-    followed by a new line, using the function <code>puts</code>.</p>
+**File:** `1-compiler`
+A Bash script that compiles a C file (saved in `$CFILE`) into an object file without linking.
 
-    <h2><b>5. Hello, printf</b></h2>
-    <p><code>5-printf.c</code>: C program that prints exactly:<br>
-    <code>with proper grammar, but the outcome is a piece of art,</code><br>
-    followed by a new line, using the function <code>printf</code>.</p>
+* Output file: Same name as input but with a `.o` extension
+  **Example:** `main.c` → `main.o`
 
-    <h2><b>6. Size is not grandeur, and territory does not make a nation</b></h2>
-    <p><code>6-size.c</code>: C program that prints the size of various types on the computer it is compiled and run on.</p>
+### 2. Assembler
 
-</body>
+**File:** `2-assembler`
+A Bash script that generates the assembly code of a C file (saved in `$CFILE`).
+
+* Output file: Same name as input but with a `.s` extension
+  **Example:** `main.c` → `main.s`
+
+### 3. Name
+
+**File:** `3-name`
+A Bash script that compiles a C file (saved in `$CFILE`) and creates an executable named `cisfun`.
+
+### 4. Hello, puts
+
+**File:** `4-puts.c`
+A C program that prints the following line using the `puts` function:
+
+```
+"Programming is like building a multilingual puzzle"
+```
+
+### 5. Hello, printf
+
+**File:** `5-printf.c`
+A C program that prints the following line using the `printf` function:
+
+```
+with proper grammar, but the outcome is a piece of art,
+```
+
+### 6. Size is not grandeur, and territory does not make a nation
+
+**File:** `6-size.c`
+A C program that prints the sizes of various data types on the computer it is compiled and run on.
+
+---
+
+Let me know if you'd like to add usage instructions, compilation steps, or links to documentation.
