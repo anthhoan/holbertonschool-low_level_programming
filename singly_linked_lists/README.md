@@ -58,28 +58,6 @@ Contains test files provided by Holberton School to validate the functions.
 ---
 
 
-## Example Usage
-
-```c
-#include "lists.h"
-
-int main(void)
-{
-    list_t *head = NULL;
-
-    add_node(&head, "First Node");
-    add_node_end(&head, "Second Node");
-    add_node_end(&head, "Third Node");
-
-    print_list(head); // Expected output: 3 nodes printed
-
-    free_list(head);  // Free the allocated memory
-    return 0;
-}
-```
-
----
-
 ## 🧑‍💻 Functions Overview
 
 * **`print_list`**
