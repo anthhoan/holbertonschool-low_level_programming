@@ -18,7 +18,7 @@ Custom implementation of the `_putchar` function used to output characters to `s
 
 ### 📄 Header File
 
-**`holberton.h`**
+**`main.h`**
 Contains all function prototypes used throughout the project.
 
 | File                 | Prototype                                                      |

@@ -18,7 +18,7 @@ A custom implementation of the `_putchar` function used to write a character to 
 
 ### 📄 Header File
 
-**`holberton.h`**
+**`main.h`**
 This header file contains the function prototypes used throughout the project.
 
 | File                     | Prototype                        |

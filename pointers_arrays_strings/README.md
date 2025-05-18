@@ -22,7 +22,7 @@ Provides a custom `_putchar` function to write characters to standard output (`s
 
 ### 📄 Header File
 
-**`holberton.h`**
+**`main.h`**
 Contains all function prototypes used across this project.
 
 | File                   | Prototype                                               |
