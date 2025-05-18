@@ -1,51 +1,112 @@
-<h1>C - Variables, if, else, while</h1>
-In this project, I learned about using arithmetic, logical, relational, and boolean operators in C. Additionally, I practiced declaring and defining variables of type char, int, and unsigned int, using if and if...else statements, and implementing while loops.
+# C - Variables, if, else, while
 
-<h1>Tasks 📃</h1>
-<b>0. Positive anything is better than negative nothing</b>
+In this project, I learned how to work with arithmetic, logical, relational, and boolean operators in C. I also practiced:
 
-0-positive_or_negative.c: C program that prints whether a randomly generated number is positive or negative, followed by a new line:
-Completion of this source code.
-Stores a different random number every time the program is run.
-Prints the number followed by is positive if the number is greater than 0, is zero if the number is zero, or is negative if the number is less than 0.
+* Declaring and defining variables of type `char`, `int`, and `unsigned int`
+* Using `if` and `if...else` statements
+* Writing `while` loops
+* Leveraging the `putchar` function to print characters without standard I/O libraries
 
-<b>1. The last digit</b>
+---
 
-1-last_digit.c: C program that prints the last digit of a randomly generated number, followed by a new line:
-Completion of this source code.
-Stores a different value every time the program is run.
-Prints the string Last digit of [number] is [last_digit] and is followed by greater than 5 if the digit is greater than 5, 0 if the digit is 0, or less than 6 and not 0 if the digit is less than 6 and not 0.
+## Tasks 📃
 
-<b>2. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game</b>
+### 0. Positive anything is better than negative nothing
 
-2-print_alphabet.c: C program that prints the alphabet in lowercase, followed by a new line, using only the putchar function exactly twice.
+**File:** `0-positive_or_negative.c`
+A C program that determines whether a randomly generated number is positive, negative, or zero.
 
-<b>3. When I was having that alphabet soup, I never thought that it would pay off</b>
+* A different number is generated every run
+* Output format:
 
-3-print_alphabets.c: C program that prints the alphabet in lowercase, then in uppercase, followed by a new line, using only the putchar function exactly three times.
+  ```
+  [number] is positive
+  [number] is zero
+  [number] is negative
+  ```
 
-<b>4. alphABET</b>
+---
 
-4-print_alphabt.c: C program that prints the alphabet in lowercase except for the letters q and e, followed by a new line, using only the putchar function exactly twice.
+### 1. The last digit
 
-<b>5. Numbers</b>
+**File:** `1-last_digit.c`
+A C program that prints the last digit of a randomly generated number.
 
-5-print_numbers.c: C program that prints all single digit numbers of base 10 starting from 0, followed by a new line.
+* A different number is generated each run
+* Output format:
 
-<b>6. Numberz</b>
+  ```
+  Last digit of [number] is [digit] and is greater than 5
+  Last digit of [number] is [digit] and is 0
+  Last digit of [number] is [digit] and is less than 6 and not 0
+  ```
 
-6-print_numberz.c: C program that prints all single digit numbers of base 10 starting from 0, followed by a new line, using only the putchar function exactly twice without any variables of type char.
+---
 
-<b>7. Smile in the mirror</b>
+### 2. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game
 
-7-print_tebahpla.c: C program that prints the lowercase alphabet in reverse, followed by a new line, using only the putchar function exactly twice.
+**File:** `2-print_alphabet.c`
+Prints the alphabet in lowercase using only the `putchar` function (twice).
 
-<b>8. Hexadecimal</b>
+* Output: `abcdefghijklmnopqrstuvwxyz`
 
-8-print_base16.c: C program that prints all the numbers of base 16 in lowercase, followed by a new line, using only the putchar function exactly three times.
+---
 
-<b>9. Patience, persistence and perspiration make an unbeatable combination for success</b>
+### 3. When I was having that alphabet soup, I never thought that it would pay off
 
-9-print_comb.c: C program that prints all possible combinations of single-digit numbers, using only the putchar function exactly four times without any variables of type char:
-Numbers are separated by ,, followed by a space.
-Numbers are printed in ascending order.
+**File:** `3-print_alphabets.c`
+Prints the alphabet in lowercase, then in uppercase, using only `putchar` three times.
+
+* Output: `abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ`
+
+---
+
+### 4. alphABET
+
+**File:** `4-print_alphabt.c`
+Prints the lowercase alphabet except `q` and `e`, using only `putchar` twice.
+
+* Output: `abcdfghijklmnoprstuvwxyz`
+
+---
+
+### 5. Numbers
+
+**File:** `5-print_numbers.c`
+Prints all single-digit numbers of base 10 starting from 0.
+
+* Output: `0123456789`
+
+---
+
+### 6. Numberz
+
+**File:** `6-print_numberz.c`
+Same as task 5, but only uses `putchar` (twice) and no `char` variables.
+
+---
+
+### 7. Smile in the mirror
+
+**File:** `7-print_tebahpla.c`
+Prints the lowercase alphabet in reverse using only `putchar` twice.
+
+* Output: `zyxwvutsrqponmlkjihgfedcba`
+
+---
+
+### 8. Hexadecimal
+
+**File:** `8-print_base16.c`
+Prints all numbers of base 16 (0–9, a–f) in lowercase using only `putchar` three times.
+
+* Output: `0123456789abcdef`
+
+---
+
+### 9. Patience, persistence and perspiration make an unbeatable combination for success
+
+**File:** `9-print_comb.c`
+Prints all possible combinations of single-digit numbers using only `putchar` four times and no `char` variables.
+
+* Output: `0, 1, 2, 3, 4, 5, 6, 7, 8, 9`
