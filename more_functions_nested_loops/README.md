@@ -33,7 +33,6 @@ This header file contains the function prototypes used throughout the project.
 | `7-print_diagonal.c`     | `void print_diagonal(int n);`    |
 | `8-print_square.c`       | `void print_square(int size);`   |
 | `10-print_triangle.c`    | `void print_triangle(int size);` |
-| `101-print_number.c`     | `void print_number(int n);`      |
 
 ---
 
